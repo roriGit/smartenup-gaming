@@ -1,0 +1,45 @@
+/* General button styling */
+button {
+    padding: 14px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    transform: skewX(-10deg); 
+    margin: auto 5px auto 0px;
+    border: 1px solid;
+}
+  
+
+  .board-btn1 {
+    font-family: "OndoMedium", sans-serif;
+    background: linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%);
+    border:0px solid #fff;
+  }
+  
+  .board-btn1:hover {
+    background: #9F6BFA;
+
+  }
+  .board-btn2 {
+    font-family: "OndoMedium", sans-serif;
+    border-image: linear-gradient(to right, #0000ff, #ec35b8) 1;
+    background: linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-fill-color: transparent; 
+    padding:13px 30px;
+    margin-left: 10px;
+  }
+  .board-btn2:hover {
+    background: linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%);
+    border:0px solid #fff;
+    -webkit-background-clip: unset; 
+    -webkit-text-fill-color: unset; 
+    text-fill-color: unset; 
+    padding:14px 31px;
+  } 
+  
