@@ -1,0 +1,15 @@
+.topgames{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 100vh;
+}
+h1 {
+    text-align: center;
+}
+.view-play{
+    margin-top: 40px;
+}
