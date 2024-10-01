@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { ButtonComponent } from "../button/button.component";
+import { FeaturesComponent } from "../features/features.component";
 
 @Component({
   selector: 'app-virtualgaming',
   standalone: true,
-  imports: [],
+  imports: [ButtonComponent, FeaturesComponent],
   templateUrl: './virtualgaming.component.html',
   styleUrl: './virtualgaming.component.scss'
 })
