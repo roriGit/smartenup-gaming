@@ -1,0 +1,17 @@
+
+    <div class="cardgame-collection">
+    <div class="card" *ngFor="let item of list">
+        <div class="gameart"><img src="/images/{{item.gameimage}}" alt="Image"></div>
+        <h2>{{item.gamename}}</h2>
+        <div class="profile">
+            <img src="https://via.placeholder.com/40" alt="Profile">
+            <div>
+                <h3>{{item.username}}</h3>
+                <p>{{item.userbrand}}</p>
+            </div>
+        </div>
+        <div class="ml-20 mr-20 mb-20">
+        <app-button label="View All" buttonType="board-btn1 full-width" ></app-button>
+        </div>
+    </div>
+</div>
