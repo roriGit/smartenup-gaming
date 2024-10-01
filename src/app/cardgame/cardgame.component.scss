@@ -1,0 +1,85 @@
+
+.card {
+    width: 100%;
+    max-width: 397px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.084) 0%, rgba(217, 217, 217, 0.042) 100%);
+    border: 1px solid #FFFFFF33;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);    
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px -1px #00000000;
+}
+
+
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 16px 15px 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0px 20px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile h3 {
+    font-size: 1rem;
+}
+
+.profile p {
+    font-size: 0.875rem;
+    color: #cccccc;
+}
+
+.live-demo {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.live-demo:hover {
+    background: linear-gradient(to right, #6a1b9a, #38006b);
+}
+// .gameart {
+//    
+//     border-radius: 10px;
+//     border: 1px solid #fff;
+// }
+.gameart{
+    margin: 20px;
+}
+.gameart img{
+    width: 100%;
+    border-radius: 10px;
+}
+.cardgame-collection{
+    width: calc(100% - 200px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  gap: 30px; /* Adds space between grid items */
+  margin: 40px auto;
+}
+button.board-btn1 {
+    width: 100%;
+}
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .cardgame-collection {
+      grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+  }
