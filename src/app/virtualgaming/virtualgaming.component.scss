@@ -8,4 +8,93 @@
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(50px);
     box-shadow: 0px 4px 20px -1px #00000000;
+    width: calc(100% - 200px);
+    display: flex;
+padding: 80px 0px;
+margin: auto;
+left: 100px;
+gap: 0px;
+border-radius: 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
 }
+.virt-img{
+    width: 50%;
+    // background-image: url('/images/virtual-gaming.png');
+    background-size: 100%;
+    background-position: 0px 100%;
+    background-repeat: no-repeat;
+}
+.virt-cont{
+    width: 50%;
+}
+.virt-img-overlay img {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align to the top */
+    width: 50%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire area */
+    z-index: 1; /* Keep image behind content */
+}
+h1{
+font-size: 48px;
+font-weight: 800;
+line-height: 55.97px;
+letter-spacing: -0.005em;
+text-align: left;
+
+}
+
+
+.features{
+    width: 100%;
+    margin-top: 95vh;
+    position: absolute;
+    display: flex;
+    padding: 10px 0px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.084) 100%, rgba(217, 217, 217, 0.042) 100%);
+    border: 1px solid #FFFFFF33;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 4px 20px -1px #00000000;
+}
+.slide{
+    font-family: "OndoBoldRegular", sans-serif;
+font-size: 30px;
+font-weight: 800;
+line-height: 33.18px;
+letter-spacing: 0.04em;
+text-align: left;
+text-transform: uppercase;
+flex: 0 0 auto;
+}
+.slide img{
+    width: 20px;
+    padding: 0px 10px;
+}
+
+.content-wrapper {
+    padding-inline: 8px;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    //animation: scroll 30s linear infinite;
+    }
+    .scroll {
+    //animation: scroll 30s linear infinite;
+    }
+    @keyframes scroll {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+    }
+    
+    
