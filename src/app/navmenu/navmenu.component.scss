@@ -8,8 +8,8 @@
     position: absolute;
     right: 0px;
     left: 0px;
-    margin-top: 20px;
-    z-index: 1;
+    margin-top: 40px;
+    z-index: 9;
 }
 
 .logo {
@@ -43,7 +43,7 @@
 }
 
 .menu-toggle {
-    display: none; /* Hide on larger screens */
+    display: none; 
     flex-direction: column;
     cursor: pointer;
 }
@@ -57,34 +57,48 @@
 .cart a {
 	color: #fff;
 }
-/* Responsive Styles */
+
+@media (max-width: 1062px) {
+    .nav-list a{
+        font-size: 14px;
+    }
+}
+@media (max-width:1024px){
+    .nav-list li{
+        margin: 0 10px;
+    }
+    .navbar{
+        padding: 10px 50px;
+      }
+}
 @media (max-width: 768px) {
     .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
     padding: 10px 20px;
 }
     .nav-list {
-        display: none; /* Hide the list by default on mobile */
+        display: none; 
         flex-direction: column;
         position: absolute;
-        top: 60px; /* Adjust based on navbar height */
-        right: 20px; /* Align to the right */
-        background-color: #333;
+        top: 60px;
+        right: 20px; 
+        background-color: #2e1f6e;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        width: 200px; /* Set a width for mobile menu */
     }
 
     .nav-list.show {
-        display: flex; /* Show the menu when toggled */
+        display: flex;
     }
     .cart{
         display: none;
     }
     .menu-toggle {
-        display: flex; /* Show hamburger icon on mobile */
+        display: flex; 
+    }
+    .nav-list li{
+        padding: 10px 20px;
     }
 }
