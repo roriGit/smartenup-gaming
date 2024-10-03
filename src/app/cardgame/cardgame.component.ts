@@ -11,11 +11,11 @@ import { ButtonComponent } from "../button/button.component";
 })
 export class CardgameComponent {
   list:any = [
-    {"gameimage": "game0.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
-    {"gameimage": "game1.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
-    {"gameimage": "game2.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
-    {"gameimage": "game3.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
-    {"gameimage": "game4.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
-    {"gameimage": "game5.jpeg", "gamename": "Core Philosophies", "userimage": "", "username": "Cameron Williamson", "userbrand":"Gillette", "link":"#"},
+    {"gameimage": "game0.jpeg", "gamename": "Core Philosophies", "userimage": "avatar1.png", "username": "Cameron Williamson", "userbrand":"Gillette"},
+    {"gameimage": "game1.jpeg", "gamename": "Core Philosophies", "userimage": "avatar2.png", "username": "Dianne Russel", "userbrand":"Louis Vuitton"},
+    {"gameimage": "game2.jpeg", "gamename": "Core Philosophies", "userimage": "avatar3.png", "username": "Jane Cooper", "userbrand":"Mastercard"},
+    {"gameimage": "game3.jpeg", "gamename": "Core Philosophies", "userimage": "avatar4.png", "username": "Cody Fisher", "userbrand":"The Walt Disney Company"},
+    {"gameimage": "game4.jpeg", "gamename": "Core Philosophies", "userimage": "avatar5.png", "username": "Wade Warren", "userbrand":"Gillette"},
+    {"gameimage": "game5.jpeg", "gamename": "Core Philosophies", "userimage": "avatar6.png", "username": "Robert Fox", "userbrand":"L'Oreal"},
   ]
 }
