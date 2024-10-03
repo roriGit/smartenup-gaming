@@ -1,19 +1,15 @@
-
+#favgames-slide{
+  padding: 50px 0px 30px;
+}
 h1{
-text-align: center;
-padding: 20px 20px;
-font-size: 66px;
-font-weight: 800;
-line-height: 76.96px;
-letter-spacing: 0.04em;
-text-align: center;
-  }
+  text-align: center;
+}
 .favgames{
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
 .favgames .textgames p{
 	max-width: 518px;
@@ -30,4 +26,13 @@ text-align: center;
 }
 .view-play{
     margin: 30px auto;
+}
+#favgames-slide {
+	max-width: 100%;
+}
+
+@media(max-width:768px){
+  .view-play{
+    margin: 0px;
+  }
 }
