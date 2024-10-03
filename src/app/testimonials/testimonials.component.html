@@ -1,0 +1,41 @@
+
+<app-features></app-features>
+<section class="testimonials">
+
+  <div id="splide" class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        
+    <li class="splide__slide " *ngFor="let testimony of testimonials">
+      <div class="review-card">
+      <div class="testimonials-arrows"><img src="/images/testimonials-arrows.svg" alt=""></div>
+      <div class="stars">
+        ★★★★★
+      </div>
+      <p class="review-text">
+        One of the standout features of this gaming website is its extensive library of game guides and tutorials. It has helped me level up my skills, conquer challenging quests, and discover hidden secrets within games. The guides are comprehensive, easy to follow, and have undoubtedly elevated my gaming performance.
+      </p>
+      <hr class="divider" />
+      <div class="user-info">
+        <div class="user-details">
+          <img class="user-avatar" src="/images/avatar1.png" alt="User Avatar" />
+          <div>
+          <h4 class="user-name">{{testimony.username}}</h4>
+          <p class="user-company">McDonald's</p>
+          </div>
+        </div>
+        <div class="verified-badge">
+          <img src="/images/verified.svg" alt="Verified Badge" />
+          <span>Verified</span>
+        </div>
+      </div>
+      </div>
+    </li>
+    
+      </ul>
+    </div>
+  </div>
+  
+      
+</section>
+
