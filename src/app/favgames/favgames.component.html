@@ -3,8 +3,23 @@
     <h1>Choose your<br><span class="textgrad">favorite</span> games</h1>
     <p>Offer sneak peeks and previews of upcoming games, including trailers, screenshots, and information about release.</p>
     </div>
-    <div class="view-play">    
-        <app-button label="View All" buttonType="board-btn1" ></app-button>
-        <app-button label="Play Now" buttonType="board-btn2" ></app-button>
-    </div>
+
+    <div id="favgames-slide" class="splide">
+        <div class="basebg"></div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            
+        <li class="splide__slide " *ngFor="let game of favgames">
+          <div class="overlay"></div>
+            <img alt="{{game.name}}" src="/images/{{game.art}}">
+        </li>
+        
+          </ul>
+        </div>
+      </div>
+
+      <div class="view-play">    
+          <app-button label="View All" buttonType="board-btn1" ></app-button>
+          <app-button label="Play Now" buttonType="board-btn2" ></app-button>
+      </div>
 </section>
