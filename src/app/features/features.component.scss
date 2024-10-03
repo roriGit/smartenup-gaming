@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     display: flex;
-    padding: 10px 0px;
+    padding: 20px 0px;
     text-wrap: nowrap;
     overflow: hidden;
     white-space: nowrap;
@@ -33,10 +33,10 @@ flex: 0 0 auto;
     display: flex;
     column-gap: 16px;
     align-items: center;
-    //animation: scroll 30s linear infinite;
+    animation: scroll 30s linear infinite;
     }
     .scroll {
-    //animation: scroll 30s linear infinite;
+    animation: scroll 30s linear infinite;
     }
     @keyframes scroll {
     from {
