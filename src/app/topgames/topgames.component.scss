@@ -12,4 +12,15 @@ h1 {
 }
 .view-play{
     margin-top: 40px;
+    display: flex;
+padding: 0px 50px;
+}
+
+@media (max-width:768px){
+.view-play {
+	overflow-y: scroll;
+	width: 100%;
+    padding: 0;
+}
+
 }
