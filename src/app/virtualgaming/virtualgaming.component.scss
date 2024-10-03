@@ -78,23 +78,50 @@ flex: 0 0 auto;
     padding: 0px 10px;
 }
 
-.content-wrapper {
-    padding-inline: 8px;
-    display: flex;
-    column-gap: 16px;
-    align-items: center;
-    //animation: scroll 30s linear infinite;
-    }
-    .scroll {
-    //animation: scroll 30s linear infinite;
-    }
-    @keyframes scroll {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+
+    @media (max-width:991px){
+        .virtContWrap {
+            width: calc(100% - 100px);
+        }
     }
     
-    
+    @media (max-width:768px){
+    .virt-cont, .virt-img {
+        width: 100%;
+    }
+    .virt-cont{
+        padding: 20px 30px;
+        width: auto;
+    }
+    .virtContWrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .overlay-image, .virt-img-overlay {
+        position: relative;
+    }
+    .virt-img-overlay img {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+        margin-bottom: -4px;
+    }
+    .virtContWrap{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .virtualgaming {
+        display: flex;
+        min-height: 0;
+        margin: 80px 0px;
+    }
+}
+
+@media (max-width:560px){
+    .virtContWrap {
+        width: calc(100% - 50px);
+    }
+}
