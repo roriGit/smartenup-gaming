@@ -1,51 +1,93 @@
 <section class="banner">
-<div class="banner-overlay">
-    <img [src]="imgUrl" alt="" class="overlay-image">
-</div>
-<div class="banner-content">
-    <h1>Let your<br>mind <span>explore</span><br>new world</h1>
-    <p>Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.</p>
-
-    <div>    
-        <app-button label="Buy Now" buttonType="board-btn1" ></app-button>
-        <app-button label="Play Now" buttonType="board-btn2" ></app-button>
+    <div class="banner-content">
+      <h1>Let your<br>mind <span>explore</span><br>new world</h1>
+      <p>Playing electronic games, whether through consoles, computers, mobile phones, or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.</p>
     </div>
-    <div class="banner-stats">
-        <div class="stat">
-            <div><h4>300<span class="lato-black">&#43;</span></h4></div>
-            <div><p>Unique style</p></div>
-        </div>
-        <div class="stat">
-            <div><h4 class="textgrad">200<span class="lato-black">&#43;</span></h4></div>
-            <div><p>Project finished</p></div>
-        </div>
-        <div class="stat">
-            <div><h4>500<span class="lato-black">&#43;</span></h4></div>
-            <div><p>Happy customer</p></div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="features marquee-container">
-    <div class="content-wrapper">
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>Gaming spaning</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>Action <span class="lato-black">-</span> packed</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>mind <span class="lato-black">-</span> bending</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>collection og games</span></div>
-    </div>
-    <div class="content-wrapper">
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>Gaming spaning</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>Action <span class="lato-black">-</span> packed</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>mind <span class="lato-black">-</span> bending</span></div>
-        <div class="slide"><img alt="-" class="star" src="/images/star.svg" /><span>collection og games</span></div>
-    </div>
-  </div>
   
+    <div class="banner-btn-stats hide-mob">
+      <div>
+        <app-button label="Buy Now" buttonType="board-btn1"></app-button>
+        <app-button label="Play Now" buttonType="board-btn2"></app-button>
+      </div>
+      <div class="banner-stats">
+        <div class="stat">
+          <h4>300<span class="lato-black">&#43;</span></h4>
+          <p>Unique style</p>
+        </div>
+        <div class="stat">
+          <h4 class="textgrad">200<span class="lato-black">&#43;</span></h4>
+          <p>Project finished</p>
+        </div>
+        <div class="stat">
+          <h4>500<span class="lato-black">&#43;</span></h4>
+          <p>Happy customers</p>
+        </div>
+      </div>
+    </div>
   
-<!--  -->
-
-
-</section>
+    <div class="banner-overlay">
+      <img [src]="imgUrl" alt="" class="overlay-image hide-mob">
+      <img src="/images/bannerImg1-mob.jpg" alt="" class="overlay-image hide-desk">
+    </div>
+  
+    <div class="features marquee-container">
+      <div class="content-wrapper">
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Gaming spanning</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Action <span class="lato-black">-</span> packed</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Mind <span class="lato-black">-</span> bending</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Collection of games</span>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Gaming spanning</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Action <span class="lato-black">-</span> packed</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Mind <span class="lato-black">-</span> bending</span>
+        </div>
+        <div class="slide">
+          <img alt="-" class="star" src="/images/star.svg" />
+          <span>Collection of games</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="banner-btn-stats hide-desk">
+      <div>
+        <app-button label="Buy Now" buttonType="board-btn1"></app-button>
+        <app-button label="Play Now" buttonType="board-btn2"></app-button>
+      </div>
+      <div class="banner-stats">
+        <div class="stat">
+          <h4>300<span class="lato-black">&#43;</span></h4>
+          <p>Unique style</p>
+        </div>
+        <div class="stat">
+          <h4 class="textgrad">200<span class="lato-black">&#43;</span></h4>
+          <p>Project finished</p>
+        </div>
+        <div class="stat">
+          <h4>500<span class="lato-black">&#43;</span></h4>
+          <p>Happy customers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
