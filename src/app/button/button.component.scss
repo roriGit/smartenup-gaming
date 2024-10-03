@@ -1,6 +1,4 @@
-/* General button styling */
 button {
-    padding: 14px 30px;
     font-size: 16px;
     text-transform: uppercase;
     color: white;
@@ -11,6 +9,13 @@ button {
     transform: skewX(-10deg); 
     margin: auto 5px auto 0px;
     border: 1px solid;
+    padding:13px 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22.12px;
+    letter-spacing: 0.04em;
+
 }
   
 
@@ -31,8 +36,6 @@ button {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     text-fill-color: transparent; 
-    padding:13px 30px;
-    margin-left: 10px;
   }
   .board-btn2:hover {
     background: linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%);
@@ -42,4 +45,38 @@ button {
     text-fill-color: unset; 
     padding:14px 31px;
   } 
-  
+  @media(max-width:768px){
+  button {
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16.12px;
+    width: 170px;
+}
+.board-btn2 {
+  padding: 19px 35px;
+  width: 170px;
+} 
+.board-btn2:hover {
+  padding: 20px 35px;
+  width: 170px;
+} 
+}
+
+@media (max-width:560px){
+  button {
+    padding: 20px 15px;
+    font-size: 14px;
+    width: auto;
+  }
+  .board-btn2 {
+    padding: 19px 15px;
+    font-size: 14px;
+    width: auto;
+  }
+  .board-btn2:hover {
+    padding: 20px 15px;
+    font-size: 14px;
+    width: auto;
+  }
+}
