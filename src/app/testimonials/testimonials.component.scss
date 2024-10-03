@@ -1,0 +1,86 @@
+.testimonials{
+    margin: 120px auto;
+    width: calc(100% - 200px);
+    padding-bottom: 50px;
+}
+.review-card {
+    background-color: #3b2271;
+    color: white;
+    border-radius: 12px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border:1px solid rgba(255, 255, 255, 0.2);
+  }
+  .testimonials-arrows {
+    margin-top: -70px;
+    float: right;
+  }
+  .stars {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right:10px;
+  }
+  
+  .user-details {
+    margin-left: 10px;
+    display: flex;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .user-company {
+    font-size: 12px;
+    color: #fff; 
+    margin: 0px;
+  }
+  
+  .verified-badge {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .verified-badge img {
+    width: 16px;
+    margin-left: 5px;
+  }
+  @media (max-width:768px) {
+    .testimonials {
+      margin:80px auto 120px;
+      width: calc(100% - 100px);
+    }
+  }
+  @media (max-width:560px) {
+    .testimonials {
+      width: calc(100% - 50px);
+    }
+  }
